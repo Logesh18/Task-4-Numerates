@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUmberates</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+    <h2 id="attempts">NO. OF ATTEMPTS</h2>
+    <span id="circle" id="circle">10</span>
+    <div id="br"></div>
+    <br>
+    <center>
+    <h1 id="heading">
+       <span id="title">NUMBER GUESSING GAME</span> 
+        <hr>
+    </h1>
+    </center>
+    <center>
+   <div class="card">
+       <div class="container">
+          
+    <div id="form">
+        <div class="row" id="hide">
+        <label id="label_0"><h4>Guess the number between 1 to 100</h4></label>
+       </div>
+
+        <br>
+        <div id=success></div>
+        <div id="triangle"></div>
+        <div id="congrats"></div>
+        <br>
+
+        <div>
+
+        <label for="name" id="label_1">Enter the number: &nbsp;&nbsp; </label>
+        <input type="text" name="number" id="number" min="1" max="100" pattern="[0-9]"/>
+        </div>
+
+        <br>
+
+        <div class="row">
+        <input type="submit" id="check" value="Check" onclick="check()">
+        </div>
+
+    </div>
+    </div>
+    </div>
+    <div id="result"></div>
+    </center>
+    <img id="skate" src="skate.png" alt="skating image"/>
+
+</body>
+</html>
