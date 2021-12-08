@@ -1,19 +1,9 @@
 var attempt=10;
 function check(){
 
-
-    // // var  attempts= document.getElementById("attempts");
-    // // var  circle= document.getElementById("circle");
-    // // var  result= document.getElementById("result");
-    // // var  heading= document.getElementById("heading");
-    // // var  form= document.getElementById("form");
-    // // var  label_0= document.getElementById("label_0");
-    // // var  label_1= document.getElementById("label_1");
-    // // var  number= document.getElementById("number");
-    // // var  check= document.getElementById("check");
     var num= document.getElementById("number").value;
-    let r_num =10;
-    // let r_num = Math.floor(Math.random() * 100) + 1;
+    //let r_num =10;
+    let r_num = Math.floor(Math.random() * 100) + 1;
     
     if(num<r_num && attempt!=0){
         document.getElementById("result").innerHTML="<br>GUESSED NUMBER <br>IS SMALL &#128533;"
